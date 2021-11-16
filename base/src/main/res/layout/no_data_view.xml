@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:ignore="MissingConstraints">
+
+    <www.ahest.cn.base.view.AlwaysMarqueeTextView
+        android:id="@+id/mTxtNoData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/img_no_data_big"
+        android:drawablePadding="@dimen/size_15"
+        android:gravity="center"
+        android:text="暂无数据"
+        android:textSize="@dimen/edit_content" />
+</androidx.constraintlayout.widget.ConstraintLayout>

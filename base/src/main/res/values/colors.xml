@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="water_color_1">#59d6ff</color>
+    <color name="water_color_2">#19acf2</color>
+    <color name="water_color_3">#5ed522</color>
+    <color name="water_color_4">#24b462</color>
+    <color name="water_color_5">#ffc20d</color>
+    <color name="water_color_6">#ff5605</color>
+    <color name="file_picker_title">#4A4A4A</color>
+    <color name="file_picker_des">#86848B</color>
+    <color name="file_bottom_line">#ECECEC</color>
+    <color name="color_hf">#d8ffe2</color>
+    <color name="color_hb">#bfeefe</color>
+    <color name="color_bz">#ffe5cc</color>
+    <color name="color_sz">#d9cdff</color>
+    <color name="color_bb">#cefee6</color>
+    <color name="color_fy">#fecccb</color>
+    <color name="color_hn">#bfeefe</color>
+    <color name="color_cz">#ffe5cc</color>
+    <color name="color_la">#d9cdfd</color>
+    <color name="color_mas">#cefee6</color>
+    <color name="color_wf">#fecccb</color>
+    <color name="color_xc">#d8ffe2</color>
+    <color name="color_tl">#ccf1ff</color>
+    <color name="color_chizou">#ffe5cc</color>
+    <color name="color_aq">#d9cdff</color>
+    <color name="color_hs">#d8ffe2</color>
+    <color name="index_zi">#60abec</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="backgroundColor">#E8E8E0</color>
+    <color name="backgroundColorPress">#DBDBD3</color>
+    <color name="color_ccancul">#7093ad</color>
+    <color name="color_commint">#887cda</color>
+    <color name="color_one">#00e400</color>
+    <color name="item_color">#f7f7f7</color>
+    <color name="color_two">#9dcd06</color>
+    <color name="color_three">#ff7e00</color>
+    <color name="color_four">#ff0000</color>
+    <color name="color_five">#99004c</color>
+    <color name="color_six">#7e0023</color>
+    <color name="color_seven">#471d4c</color>
+    <color name="jk_three">#d2c51f</color>
+    <color name="jk_four">#cb3325</color>
+    <color name="pm">#d0d4d8</color>
+    <color name="txt_color">#030303</color>
+    <color name="bg_color">#eeede9</color>
+    <color name="zt_color">#1c1c1c</color>
+    <color name="color_wu">#6a6a6a</color>
+    <color name="color_pj">#BDB76B</color>
+    <color name="color_jj">#CD5C5C</color>
+    <color name="color_tj">#FF00FF</color>
+    <color name="color_tt">#7f00</color>
+    <color name="zt_lc_color">#888888</color>
+    <color name="zt_color_not_bour">#555555</color>
+    <color name="top_color">#fefffe</color>
+    <color name="item">#dddddd</color>
+    <color name="item_hour">#60cfeb</color>
+    <color name="layout_hour">#60cfeb</color>
+    <color name="p_not">#d7d7d7</color>
+    <color name="p_yes_end">#b8e0d8</color>
+    <color name="p_yes_start">#a4ccc4</color>
+    <color name="p_yes">#a4ccc4</color>
+    <color name="ai_lab_color">#dadcdb</color>
+    <color name="ai_lab_color_end">#e8e8e8</color>
+    <color name="ai_lab_color_start">#e9e9e9</color>
+    <color name="bg_line">#cdcdcd</color>
+    <color name="index_buttom">#283646</color>
+    <color name="transparent_background">#99000000</color>
+    <color name="btn_bg_color">#3f3b3a</color>
+    <color name="commonbutton_bg_selected_color">#BEBEBE</color>
+    <color name="commonbutton_bg_color">#14B2E9</color>
+    <color name="tab_a_label_bg">#BEBEBE</color>
+    <color name="whiteex">#fffffe</color>
+    <color name="color_blue">#2C8AD3</color>
+    <color name="color_lan">#2d9ee6</color>
+    <color name="color_login">#024e99</color>
+    <color name="menu_bg">#3aaee6</color>
+    <color name="grid_color">#2C8AD3</color>
+    <!-- 横竖坐标字体颜色值 -->
+    <color name="vh_numcolor">#ffffff</color>
+    <!-- 横竖坐标轴颜色值 -->
+    <color name="vh_linecolor">#ffffff</color>
+    <!-- 曲线颜色值 -->
+    <color name="line_color">#4e98dd</color>
+    <!-- 曲线颜色值 -->
+    <color name="line_color_two">#6f4b8b</color>
+    <color name="listview_item_normal">#eef0ed</color>
+    <color name="listview_item_pressed">#d4d4d4</color>
+    <drawable name="greend">#0f0</drawable>
+    <!-- 知识目录颜色值 -->
+    <color name="tabitem_selecte_color">#ffffff</color>
+    <color name="not">#eeeef0</color>
+    <color name="yes">#ffffff</color>
+    <color name="yellow">#ff9910</color>
+    <color name="tabitem_default_color">#a6a6a6</color>
+    <color name="specifytitelcolor">#5a5a5a</color>
+    <color name="specifymaintitelcolor">#cccccc</color>
+    <color name="transparent">#00000000</color>
+    <!-- 首页滚动tab颜色 -->
+    <color name="selectorbar_select">#aa0f0f</color>
+    <color name="selectorbar_normal">#808080</color>
+    <!-- 推荐文档字体颜色 -->
+    <drawable name="recommend_text_color">#525252</drawable>
+    <drawable name="transparent">#00000000</drawable>
+    <drawable name="red">#7f00</drawable>
+
+    <color name="zt_not">#6a6a6a</color>
+    <color name="w_not">#f0f0f0</color>
+    <color name="monery_color">#ff4681</color>
+
+    <drawable name="blue">#770000ff</drawable>
+    <drawable name="green">#7700ff00</drawable>
+    <drawable name="yellow">#77ffff00</drawable>
+    <drawable name="white">#FFFFFF</drawable>
+    <drawable name="black">#000000</drawable>
+    <drawable name="orange">#ff730c</drawable>
+
+    <color name="light">#a4f1f7</color>
+    <color name="owncenter_color">#000000</color>
+
+    <drawable name="screen_background_black">#ff000000</drawable>
+    <drawable name="translucent_background">#e0000000</drawable>
+    <drawable name="transparent_background">#00000000</drawable>
+
+    <color name="solid_red">#f00</color>
+    <color name="solid_blue">#0000ff</color>
+    <color name="solid_green">#f0f0</color>
+    <color name="solid_yellow">#ffffff00</color>
+    <color name="solid_white">#FFFFFF</color>
+    <color name="light_sky_blue">#0099FF</color>
+    <color name="light_gray">#EEEEEE</color>
+    <color name="light_orange">#fff100</color>
+    <color name="gray">#666666</color>
+    <color name="warning">#de5b24</color>
+    <color name="solid_gray">#ACA899</color>
+    <color name="dark_gary">#333333</color>
+    <color name="solid_orange">#eb6100</color>
+    <color name="dark_red">#a40000</color>
+    <color name="localsearchfilebg">#666666</color>
+    <color name="hotsinger_text_color">#666666</color>
+    <color name="my_color">#0195ff</color>
+    <color name="tab_color">#0092f1</color>
+    <color name="zi_color">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="grey">#ebebeb</color>
+    <color name="black">#000000</color>
+    <color name="darkgrey">#C0C0C0</color>
+    <color name="red">#FF0000</color>
+    <color name="darkyellow">#FFCC33</color>
+
+
+    <color name="float_transparent">#00000000</color>
+    <color name="sweet_dialog_bg_color">#FFFFFF</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="gray_btn_bg_color">#D0D0D0</color>
+    <color name="gray_btn_bg_pressed_color">#B6B6B6</color>
+    <color name="blue_btn_bg_color">#AEDEF4</color>
+    <color name="blue_btn_bg_pressed_color">#96BFD2</color>
+    <color name="red_btn_bg_color">#DD6B55</color>
+    <color name="red_btn_bg_pressed_color">#CD5B55</color>
+    <color name="error_stroke_color">#F27474</color>
+    <color name="success_stroke_color">#A5DC86</color>
+    <color name="trans_success_stroke_color">#33A5DC86</color>
+    <color name="warning_stroke_color">#F8BB86</color>
+    <color name="text_color">#575757</color>
+    <color name="material_blue_grey_80">#ff37474f</color>
+    <color name="material_blue_grey_90">#ff263238</color>
+    <color name="material_blue_grey_95">#ff21272b</color>
+    <color name="material_deep_teal_20">#ff80cbc4</color>
+    <color name="material_deep_teal_50">#ff009688</color>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="www.ahest.cn.base">
+
+    <application>
+        <activity
+            android:name=".BaseMainActivity"
+            android:exported="false" />
+
+        <provider
+            android:name=".provider.AppFileProvider"
+            android:authorities="www.ahest.cn.base.app.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            tools:replace="name,authorities,exported,grantUriPermissions">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths_add"
+                tools:replace="name,resource" />
+        </provider>
+        <provider
+            android:name=".provider.IAppFileProvider"
+            android:authorities="www.ahest.cn.base.iappoffice.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+        <provider
+            android:name=".provider.OpenFileProvider"
+            android:authorities="www.ahest.cn.base.openfile.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/openfilepaths" />
+        </provider>
+    </application>
+
+</manifest>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--渐变类型 有三种 线性linear 放射渐变radial 扫描线性渐变sweep-->
+    <gradient
+        android:angle="0"
+        android:endColor="@color/my_color"
+        android:startColor="@color/my_color" />
+
+    <corners
+        android:bottomLeftRadius="@dimen/size_10"
+        android:bottomRightRadius="@dimen/size_10"
+        android:topLeftRadius="@dimen/size_10"
+        android:topRightRadius="@dimen/size_10" />
+    <stroke
+        android:width="@dimen/size_2"
+        android:color="@color/my_color" />
+</shape>

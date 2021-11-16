@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mItemView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    tools:ignore="MissingConstraints">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/c1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_15"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="@dimen/size_0"
+            android:layout_height="wrap_content"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/mMenuImg" />
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="@dimen/size_0"
+            android:layout_height="wrap_content"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@id/mMenuImg"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/mMenuImg"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/zw"
+            app:layout_constraintDimensionRatio="h,1:1"
+            app:layout_constraintHorizontal_weight="3"
+            app:layout_constraintLeft_toRightOf="@id/t1"
+            app:layout_constraintRight_toLeftOf="@id/t2"
+            app:riv_border_color="@color/bg_color"
+            app:riv_border_width="@dimen/size_1"
+            app:riv_corner_radius="@dimen/size_10"
+            app:riv_oval="true" />
+
+        <TextView
+            android:id="@+id/c"
+            app:layout_constraintRight_toRightOf="@id/mMenuImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/mTxtUnreadNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_red"
+            android:gravity="center"
+            android:paddingLeft="@dimen/size_6"
+            android:paddingRight="@dimen/size_6"
+            android:paddingTop="@dimen/size_2"
+            android:paddingBottom="@dimen/size_2"
+            android:text="12"
+            app:layout_constraintRight_toRightOf="@id/c"
+            app:layout_constraintLeft_toLeftOf="@id/c"
+            android:textColor="@color/white"
+            app:layout_constraintTop_toTopOf="@id/c1"
+            android:textSize="@dimen/conten_middle_m"
+            android:textStyle="bold" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <www.ahest.cn.base.view.AlwaysMarqueeTextView
+        android:id="@+id/mTxtMenuTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_10"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/app_name"
+        android:paddingBottom="@dimen/size_15"
+        android:textColor="@drawable/color_select_zt"
+        android:textSize="@dimen/conten_nomal"
+        app:layout_constraintTop_toBottomOf="@id/c1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
